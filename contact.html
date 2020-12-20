@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/particule.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <script defer src="js/particule.js"></script>
+    <script defer src="js/contact.js"></script>
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <div id="container">
+    <div class="container">
+        
+    <div id="contact">
+        <div class="wrapper">
+            <h1>Contactez moi </h1>
+            <div id="error_message"> 
+            </div>
+            <form action="" id="myform" onsubmit = "return validation();">
+              <div class="input_field">
+                  <input type="text" placeholder="Nom" id="name">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Sujet" id="subject">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Téléphone" id="phone">
+              </div>
+              <div class="input_field">
+                  <input type="text" placeholder="Email" id="email">
+              </div>
+              <div class="input_field">
+                  <textarea placeholder="Message" id="message"></textarea>
+              </div>
+              <div class="btn">
+                  <input class="btn-grad" type="submit">
+              </div>
+            </form>
+          </div>
+          <a href=javascript:history.go(-1)>Retour</a>
+</div>
+</div>
+</div>
+</body>
+</html>

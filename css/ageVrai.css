@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+
+
+body{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color:#d0ad73;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: #000000;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 25%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#fin, h1{
+    display: none;
+    text-align: center;
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+text-align: center;
+background-size: 800% 800%;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 24px;
+animation: rainbow 8s ease infinite;
+}
+
+h1{
+    display: block;
+}
+
+
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: auto;
+      border: solid black 5px;
+      width: auto;
+      height:auto ;
+      background: url("../img/bg.jpg") no-repeat top center / cover;
+  }
+
+  
+  .btn-grad {background-image: linear-gradient(to right, #eacda3 0%, #d6ae7b  51%, #eacda3  100%)}
+  .btn-grad {
+     padding: 15px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     
+   }
+
+   .btn-grad:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+
+
